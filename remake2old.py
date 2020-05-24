@@ -1,0 +1,6 @@
+f = open("good_prox.txt",'r')
+prox = f.read()
+f.close()
+f = open('good_prox.old','w')
+f.write(prox)
+f.close()
